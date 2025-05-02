@@ -1,0 +1,4 @@
+1. Public Example – Accessible from anywhere.
+2. Protected Example – Accessible within class and subclass.
+3. Private Example – Accessible only inside the class.
+4. Combined Example – Public, Protected, Private in One.

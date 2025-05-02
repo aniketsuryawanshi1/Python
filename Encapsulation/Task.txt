@@ -1,0 +1,50 @@
+Problem Statement: Hospital Patient Management System
+You are tasked with designing a simple Hospital Patient Management System that uses the principles of Encapsulation (Public, Protected, and Private access modifiers).
+
+📝 Requirements:
+👤 Class: Patient
+Public Attribute: name – the name of the patient.
+
+Protected Attribute: _patient_id – unique patient ID used internally by hospital staff.
+
+Private Attribute: __medical_history – sensitive health records, not to be accessed or modified directly.
+
+🧩 Operations to Implement:
+Add New Patient
+
+Input from user: name, patient_id, medical_history
+
+Store this data securely using appropriate access levels.
+
+View Patient Info
+
+Output to user: name, patient_id (protected), medical_history (via method only).
+
+Update Medical History
+
+Input: New medical history
+
+Operation: Update private data using a public method.
+
+Search by Patient ID (from a subclass, e.g., DoctorAccess)
+
+Input: Patient ID
+
+Output: Display name and medical_history (access through subclass and method).
+
+🎯 Expected Input from User:
+"John Doe"
+
+"PAT1234"
+
+"Diabetes, High BP"
+
+📤 Expected Output:
+Patient Name: John Doe
+
+Patient ID: PAT1234
+
+Medical History: Diabetes, High BP
+
+(Medical history only visible via method or authorized access, not directly)
+
